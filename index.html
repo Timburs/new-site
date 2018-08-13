@@ -20,7 +20,7 @@
     <body>
 
     <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent static-top">
             <div class="container">
                 <a class="navbar-brand" href="#">Tim's Logo</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,18 +47,17 @@
             </div>
         </nav>
 
-
-
     <!-- Page Content -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-left">
-                    <h1 class="mt-5">I'm Tim Nguyen, a student at <a href="https://www.swarthmore.edu" target="_blank"> Swarthmore College </a>, double majoring in <a href="https://www.swarthmore.edu/engineering" target="_blank"> Engineering </a> and <a href="https://www.swarthmore.edu/computer-science" target="_blank"> Computer Science</a>.</h1>
+                    <h1 class="mt-5">I'm Tim Nguyen, a student at <a href="https://www.swarthmore.edu" target="_blank"> Swarthmore College </a>, 
+                                     double majoring in <a href="https://www.swarthmore.edu/engineering" target="_blank"> Engineering </a> 
+                                     and <a href="https://www.swarthmore.edu/computer-science" target="_blank"> Computer Science</a>.
+                    </h1>
                 </div>
             </div>
         </div>
-
-
 
 <!-- Work Experience -->
 
@@ -84,19 +83,44 @@
                 <div class="col-md-8">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="list-chubb" role="tabpanel" aria-labelledby="list-chubb-list"> 
-
-Velit aute mollit ipsum ad dolor consectetur nulla officia culpa adipisicing exercitation fugiat tempor. Voluptate deserunt sit sunt nisi aliqua fugiat proident ea ut. Mollit voluptate reprehenderit occaecat nisi ad non minim tempor sunt voluptate consectetur exercitation id ut nulla. Ea et fugiat aliquip nostrud sunt incididunt consectetur culpa aliquip eiusmod dolor. Anim ad Lorem aliqua in cupidatat nisi enim eu nostrud do aliquip veniam minim.
-
+                            <p>
+                            During the summer of 2018, I interned at Chubb, one of the largest global providers of insurance.  For the first month,
+                            I was paired with the data science team and looked at missing value analysis.  Essentially, every data bricks that we
+                            obtain from vendors always have missing values and the team performed an imputation method, called MICE, to fill in 
+                            the missing numbers.  I was tasked with validating their method, and in doing so, I implemented Little's MCAR test, which
+                            is provides a test statistic indicating whether the missingness is Missing at Random (MAR) or Missing Completely at Random (MCAR).
+                            </p>
+                            <p>
+                            Additionally, I was paired with the API development team and was given the opportunity to dive into the Azure cloud infrastructure
+                            that holds the entire project up.  I got to analyze how the APIs were developed, how they were scaled and stored in the Service
+                            Fabric Cluster, and how the data was moved and transferred, from the Data Lakes, Data Warehouses, and Cosmos DB.  The entire
+                            end-to-end pipeline was visible and I aided in developing the infrastructure and data flow logic/diagrams for the team
+                            to use.
+                            </p>
                         </div>
                         <div class="tab-pane fade" id="list-morgan" role="tabpanel" aria-labelledby="list-morgan-list"> 
-
-Cupidatat quis ad sint excepteur laborum in esse qui. Et excepteur consectetur ex nisi eu do cillum ad laborum. Mollit et eu officia dolore sunt Lorem culpa qui commodo velit ex amet id ex. Officia anim incididunt laboris deserunt anim aute dolor incididunt veniam aute dolore do exercitation. Dolor nisi culpa ex ad irure in elit eu dolore. Ad laboris ipsum reprehenderit irure non commodo enim culpa commodo veniam incididunt veniam ad.
-
+                            <p>
+                            In the summer of 2018, I interned at a global firm known as Morgan Lewis & Bockius.  During my time there, I was given
+                            responsibility over a large SQL Server Database called InventoryTracker, which acts as a logger for every other SQL 
+                            servers and instances.  It keeps track of important information and metadata for other corporate servers, acting as a central 
+                            hub for quick reference and documentation.  Now, whenever a new server was created, all of the information has to be logged
+                            in the InventoryTracker, which the team did by meticulously modifying and adjusting their old Stored Procedures.  I developed
+                            a front-end tool to simplify this process, using C# as the backend to interact with SQL Server.
+                            </p>
                         </div>
                         <div class="tab-pane fade" id="list-ericsson" role="tabpanel" aria-labelledby="list-ericsson-list"> 
-
-Ut ut do pariatur aliquip aliqua aliquip exercitation do nostrud commodo reprehenderit aute ipsum voluptate. Irure Lorem et laboris nostrud amet cupidatat cupidatat anim do ut velit mollit consequat enim tempor. Consectetur est minim nostrud nostrud consectetur irure labore voluptate irure. Ipsum id Lorem sit sint voluptate est pariatur eu ad cupidatat et deserunt culpa sit eiusmod deserunt. Consectetur et fugiat anim do eiusmod aliquip nulla laborum elit adipisicing pariatur cillum.
-
+                            <p>
+                            After my freshman year of college, I joined Ericsson, a telecom company, as an intern.  I was given the source code for an 
+                            Android application that my team was working on to provide for T-Mobile.  The application served a very similar functionality
+                            to the popular Google Survey Rewards, essentially asking users of the network to rate their service.  One of my tasks was to
+                            debug and fix a lot of the inconsistencies in the application, such as UI glitches or navigation errors.  
+                            </p>
+                            <p>
+                            Additionally, one of the challenging parts of the application was creating new questions and answers, as this 
+                            required parsing through and creating new complication JSON tree structures.  The team manually editted old JSON files 
+                            to add to questions to the app.  I simplified this process by creating a simple front-end web app, which 
+                            abstracts away all of the JSON editing.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -140,24 +164,17 @@ Ut ut do pariatur aliquip aliqua aliquip exercitation do nostrud commodo reprehe
                                             Methodology, Physics I, Intro to Psychology, 
                                             Seminar: Transition to Academic Writing </div>
                 </div>
-
-<!--
-                <div class="row mt-5">
-                    <div class="col-md-4"> Freshman </div>
-                    <div class="col-md-1"> Linear Algebra</div>
-                    <div class="col-md-1"> Physics I</div>
-                    <div class="col-md-1"> Engineering Methodology </div>
-                    <div class="col-md-1"> Seminar : Transition to Academic Writing</div>
-
-                    <div class="col-md-1"> Intro to Computer Science </div>
-                    <div class="col-md-1"> Mechanics </div>
-                    <div class="col-md-1"> Multi-Variable Calculus </div>
-                    <div class="col-md-1"> Intro to Psychology </div>
-                </div>
--->
-
-
             </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12"> 
+                        <h1 class="mt-5"> Projects </h1> 
+                    </div>
+                </div>
+            </div>
+
 
         </div>
 

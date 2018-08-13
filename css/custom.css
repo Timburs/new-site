@@ -1,11 +1,17 @@
+/*
+ * Defining custom CSS styles
+ */
+
 body {
 
     font-family : 'Roboto', sans-serif;
+    color: #4B4E6D;
 
 }
 
 .list-group .active {
 
     background-color: gray;
+    border-color: gray;
 
 }
