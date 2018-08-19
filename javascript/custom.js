@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    /*
     $('a[data-toggle="list"]').on('shown.bs.tab', function(e) {
         var id = $(e.target).attr('id');
         if (id == 'list-chubb-list') {
@@ -13,4 +14,6 @@ $(document).ready(function() {
             $('#work-image').attr('src','images/ericsson-logo.png')
         }
     });
+    */
+
 });

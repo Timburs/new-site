@@ -8,10 +8,15 @@ body {
 
 }
 
+.list-group {
+    border-color: #f96161;
+}
+
 .list-group .active {
 
-    background-color: gray;
-    border-color: gray;
+    color: black;
+    background-color: white;
+    border-color: #f96161;
 
 }
 
@@ -19,12 +24,43 @@ body {
     padding-bottom: 20em;
 }
 
+/* Icon Spacing */
+
+.fab .fas {
+    margin-right: 10px;
+}
+
 a {
-    color: #FE8019;
+    color: #f96161;
 }
 
 u {
     padding-bottom: 10;
     text-decoration: none;
-    border-bottom: 5px solid #FE8019;
+    border-bottom: 5px solid #f96161;
 }
+
+/* SVG Logo Config */
+
+svg {
+    height: 10%;
+    width: 10%;
+    stroke-linecap: square; /* Fixes the incomplete corner */
+}
+
+#line1 {
+    stroke-dasharray: 1700;
+    stroke-dashoffset: 1700;
+    animation: dash 2s linear forwards;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1700;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/* End SVG Config */
