@@ -44,7 +44,7 @@ gulp.task('dev', ['browserSync'], function() {
 // Deploy tast
 
 gulp.task('deploy', function() {
-    return gulp.src('./dist/**/*')
+    return gulp.src('./**/*')
         .pipe(ghPages());
 });
 
