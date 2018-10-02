@@ -41,10 +41,10 @@ gulp.task('dev', ['browserSync'], function() {
   gulp.watch('./*.html', browserSync.reload);
 });
 
-// Deploy tast
+// Deploy task
 
 gulp.task('deploy', function() {
     return gulp.src('./**/*')
-        .pipe(ghPages());
+        .pipe(deploy());
 });
 
